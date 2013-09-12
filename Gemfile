@@ -9,6 +9,10 @@ group :production do
 	gem 'pg'
 end
 
+gem 'rails_12factor', group: :production
+
+
+
 group :development, :test do
 gem 'sqlite3'
 gem 'bootstrap-sass', '~> 2.3.2.1'
